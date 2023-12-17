@@ -1,0 +1,19 @@
+@font-face {
+    font-family: Roboto;
+    src: url('/assets/font/Roboto-Regular.ttf');
+}
+
+@font-face {
+    font-family: Railway-bold;
+    src: url('/assets/font/Roboto-Bold.ttf');
+}
+
+@font-face {
+    font-family: Railway-light;
+    src: url('/assets/font/Roboto-Light.ttf');
+}
+
+@font-face {
+    font-family: Railway-thin;
+    src: url('/assets/font/Roboto-Thin.ttf');
+}
