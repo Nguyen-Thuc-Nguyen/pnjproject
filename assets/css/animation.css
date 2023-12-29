@@ -1,0 +1,22 @@
+@keyframes headerlink-animation-2 {
+
+    0%,
+    100% {
+        width: 0%;
+    }
+
+    50% {
+        width: 100%;
+    }
+}
+
+@keyframes headerlink-animation-1 {
+
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 100%;
+    }
+}
