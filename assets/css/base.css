@@ -6,6 +6,7 @@
 
 * {
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 html {
@@ -113,6 +114,29 @@ a {
     padding: 0 3%;
 }
 
+.pd-4 {
+    padding: 0 4%;
+}
+
+.m-0 {
+    margin: 0;
+}
+
+.m-6 {
+    margin: 0 6%;
+}
+
 .section-footer {
     margin: 5% 0 2% 0;
+}
+
+.flex {
+    position: relative;
+    display: flex;
+}
+
+.flexible-box {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
 }
