@@ -6,15 +6,19 @@
 
 * {
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 html {
-    margin: 0;
-    padding: 0;
-    font-size: 16px;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+
 }
 
 body {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
@@ -34,4 +38,105 @@ a {
 
 .block {
     position: relative;
+}
+
+.row {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-2 {
+    width: calc(8.3333%*2);
+}
+
+.col-3 {
+    width: calc(8.3333%*3);
+}
+
+.col-4 {
+    width: calc(8.3333%*4);
+}
+
+.col-5 {
+    width: calc(8.3333%*5);
+}
+
+.col-6 {
+    width: calc(8.3333%*6);
+}
+
+.col-7 {
+    width: calc(8.3333%*7);
+}
+
+.col-8 {
+    width: calc(8.3333%*8);
+}
+
+.col-9 {
+    width: calc(8.3333%*9);
+}
+
+.col-10 {
+    width: calc(8.3333%*10);
+}
+
+.col-11 {
+    width: calc(8.3333%*11);
+}
+
+.col-12 {
+    width: calc(8.3333%*12);
+}
+
+.pds-2 {
+    padding: 0 2%;
+}
+
+.jtf-spacebetween {
+    justify-content: space-between;
+}
+
+.pdl-1 {
+    padding-left: 0.8%;
+}
+
+.pdr-1 {
+    padding-right: 0.8%;
+}
+
+.pd-1 {
+    padding: 0 0.8%;
+}
+
+.pd-3 {
+    padding: 0 3%;
+}
+
+.pd-4 {
+    padding: 0 4%;
+}
+
+.m-0 {
+    margin: 0;
+}
+
+.m-6 {
+    margin: 0 6%;
+}
+
+.section-footer {
+    margin: 5% 0 2% 0;
+}
+
+.flex {
+    position: relative;
+    display: flex;
+}
+
+.flexible-box {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
 }
