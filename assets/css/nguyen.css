@@ -747,10 +747,15 @@ hr {
     justify-content: center;
     align-items: center;
 
+
 }
 
-.items div {
-    width: 65%;
+.items img {
+    width: 130px;
+    height: 130px;
+}
+
+.items {
     text-align: center;
 }
 
